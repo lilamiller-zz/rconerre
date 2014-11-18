@@ -1,0 +1,60 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*--All the website--*/
+.header {
+	background: transparent;
+	font-color: white;
+	text-align: center;
+	width: 100%;
+	padding: 2em 0 2em 0;
+	margin: 0 auto;
+	border-bottom: 1px lightgray solid;
+	top: 0px;
+}
+
+.header a{
+	margin: 0 3em 0 3em;
+}
+
+
+.footer {
+	background: white;
+	color: lightgray;
+	padding: 2em 0 2em 0;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer a{
+	color: lightgray;
+	margin: 0 1em 0 1em;
+}
+
+/*-- Home --*/
+
+.home-cover {
+	background: url(/assets/home-cover.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	margin: 0 auto;
+	padding: 12em 0 12em 0;
+	text-align: center;
+}
+
+.main-buy-button {
+	background: #68C6B9;
+	color: white;
+	padding: 1em 4em;
+	border-radius: 3px;
+}
+
+.main-buy-button a{
+}
+
+.main-buy-button-margin {
+	margin-top: 3.5em;
+}
