@@ -2,16 +2,16 @@ class Users::RegistrationsController < Devise::RegistrationsController
 # before_filter :configure_sign_up_params, only: [:create]
 # before_filter :configure_account_update_params, only: [:update]
 
-  GET /resource/sign_up
-  def new
-    super
-  end
+  #GET /resource/sign_up
+  #def new
+    #super
+  #end
 
-  POST /resource
-  def create
-    super
-    redirect_to videos_path
-  end
+  #POST /resource
+  #def create
+    #super
+    #redirect_to videos_path
+  #end
 
   # GET /resource/edit
   # def edit
