@@ -36,3 +36,7 @@ h2 {
 	font-size: 2em;
 	letter-spacing: .05em;
 }
+
+p {
+	color: rgb(95, 106, 125);
+}
