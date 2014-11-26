@@ -6,6 +6,6 @@
 	<% if user_signed_in? %>
 		<%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete %>
 	<% else %>
-		<%= link_to "Iniciar sesión", new_user_session_path %>
+		<%= link_to "Iniciar sesión", new_user_session_path, class: "sign-in" %>
     <% end %>
 </div>

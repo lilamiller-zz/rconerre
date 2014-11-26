@@ -1,7 +1,5 @@
 <div class="sign-in-1">
-  <div class="box-sign-in">
-    <h2>Iniciar sesión</h2>
-
+    <h3>Iniciar sesión</h3>
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="field">
         <%= f.email_field :email, autofocus: true, :placeholder => "Correo electrónico" %>
@@ -12,7 +10,7 @@
       </div>
 
       <% if devise_mapping.rememberable? -%>
-        <div class="field">
+        <div class="field check-box-margin">
           <%= f.check_box :remember_me %>
           <%= f.label :remember_me, "Recordar mis datos" %>
         </div>
@@ -24,5 +22,4 @@
     <% end %>
 
     <%= render "devise/shared/links" %>
-  </div>
 </div>

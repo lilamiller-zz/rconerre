@@ -18,6 +18,17 @@
 	margin: 0 3em 0 3em;
 }
 
+a.sign-in {
+	background-color: #9B74B3;
+	padding: .6em 1em;
+	color: white;
+	border-radius: 2px;
+}
+
+a.sign-in:hover{
+	background-color: #b395c5;
+}
+
 .footer {
 	background: white;
 	color: lightgray;
@@ -31,6 +42,7 @@
 	color: lightgray;
 	margin: 0 1em 0 1em;
 }
+
 
 /*-- Home --*/
 
@@ -67,8 +79,23 @@
 	padding: 6em 0 6em 0;
 	margin: 0 auto;
 	background-size: cover;
-
 }
+
+.main-buy-button {
+	background: #68C6B9;
+	color: white;
+	padding: 1.2em 6em;
+	border-radius: 3px;
+}
+
+.main-buy-button:hover{
+	background: #8dd4ca;
+	}
+
+.main-buy-button-margin {
+	margin-top: 3.5em;
+}
+
 /*-----Buy------*/
 .buy-cover {
 	background: #9B74B3;
@@ -198,19 +225,7 @@
 	padding: 1em 2em 1em 2em;
 	margin: 0 auto;
 }
-.main-buy-button {
-	background: #68C6B9;
-	color: white;
-	padding: 1em 4em;
-	border-radius: 3px;
-}
 
-.main-buy-button a{
-}
-
-.main-buy-button-margin {
-	margin-top: 3.5em;
-}
 
 a.payment-button {
 	background: #68C6B9;
@@ -296,32 +311,59 @@ a.payment-button {
 	margin: 3em 0;
 }
 
-.style-1 input[type="text"] {
-  padding: 10px;
-  border: solid 1px #dcdcdc;
-  transition: box-shadow 0.3s, border 0.3s;
-}
-.style-1 input[type="text"]:focus,
-.style-1 input[type="text"].focus {
-  border: solid 1px #707070;
-  box-shadow: 0 0 5px 1px #969696;
-}
-
 .sign-in-1 {
   background: #f4f4f4;
-	height: 20em;
 	width: 40em;
 	margin: 2em auto;
+	padding: 1em 2em 4em 2em;
 	text-align: center;
-	border-radius: .8em;
+	border-radius: 3px;
 }
 
-.sign-in-1 h2 {
+.sign-in-1 h3 {
 	color: gray;
-	text-align: left;	
-	font-size: 25px;
+	text-align: center;	
 }
 
-.box-sign-in {
-	padding: 1em 2em 1em 2em;
+.sign-in-1 input[type=email] {
+    border: 1px solid lightgray; 
+    padding: 15px;
+    width: 20em;
+    margin-bottom: 0px;
+    color: #323232;
+}
+
+.sign-in-1 input[type=email]:focus {
+    border: 1px solid lightgray; 
+}
+
+.sign-in-1 input[type=password] {
+    border: 1px solid lightgray; 
+    padding: 15px;
+    width: 20em;
+    margin: 0;
+    color: #323232;
+}
+
+.sign-in-1 input[type=submit] {
+	padding: 15px;
+	background: black;
+	color: white;
+	width: 22em;
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 3px
+}
+
+.sign-in-1 input[type=submit]:hover {
+	background: gray;
+}
+
+.actions {
+	margin: 2em 0;
+}
+
+.check-box-margin {
+	margin: 1em 0;
 }
