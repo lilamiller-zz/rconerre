@@ -1,7 +1,7 @@
 <div class="header">
 	<%= link_to "Inicio", root_path %>
 	<%= link_to "Nosotros", about_path %>
-	<%= link_to "Contacto", contact_path %>
+	<%= link_to "Producto", buy_path %>
 	<%= link_to "Ayuda", help_path %>
 	<% if user_signed_in? %>
 		<%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete %>
