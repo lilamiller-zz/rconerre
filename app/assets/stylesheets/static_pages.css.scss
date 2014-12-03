@@ -132,7 +132,7 @@ a.sign-in:hover{
 }
 
 .ventajas-box {
-	width: 12vw;
+	width: 13vw;
 	display: inline;
 	float: left;
 	margin: 0 auto;
@@ -238,7 +238,11 @@ a.payment-button {
 	margin: 4em ;
 }
 
-/*----Ayuda----*/
+.payment-button:hover {
+background: #8dd4ca
+}
+
+/*----Help----*/
 
 .help-cover{
 	background: #9B74B3;

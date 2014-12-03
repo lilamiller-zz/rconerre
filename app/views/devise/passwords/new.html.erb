@@ -1,7 +1,7 @@
 <div class="sign-in-1">
 	<h3>¿Olvidaste tu contraseña?</h3>
 	
-	<div class="password"> <p>Ingresa la dirección de correo electrónico utilizada para tu registro y te enviaremos un correo electrónico con instrucciones para restablecer tu contraseña.</p> </div>
+	<div class="password"> <p>Escribe la dirección de correo electrónico utilizada para tu registro y te enviaremos las instrucciones para restablecer tu contraseña.</p> </div>
 
 	<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
 	  <%= devise_error_messages! %>

@@ -1,5 +1,7 @@
 Rconerre::Application.routes.draw do
 
+  get "admin/users"
+
   get "content/videos"
 
   devise_for :users
