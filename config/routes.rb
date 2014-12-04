@@ -18,6 +18,8 @@ Rconerre::Application.routes.draw do
 
   match "/videos" => "content#videos"
 
+  match "/terms" => "static_pages#terms"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

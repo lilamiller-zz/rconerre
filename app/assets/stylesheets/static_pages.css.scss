@@ -305,8 +305,12 @@ background: #8dd4ca
 	text-align: center;
 }
 
-.faq h3{
+.faq h3, li{
 	color: gray;
+}
+
+.faq h4 {
+	color: darkgray
 }
 
 .purple-line {
@@ -362,6 +366,16 @@ background: #8dd4ca
 
 .sign-in-1 input[type=submit]:hover {
 	background: gray;
+}
+
+.terms p{
+	font-size: .7em;
+	color: gray;
+	margin-top: -1em;
+}
+
+.terms a{
+	text-decoration: underline;
 }
 
 .actions {

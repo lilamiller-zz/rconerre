@@ -22,7 +22,14 @@
     <div class="actions">
       <%= f.submit "Regístrate" %>
     </div>
+
+    <div class="terms">
+      <p>Al registrarte aceptas nuestros <%= link_to "Términos y condiciones", terms_path, target: "_blank" %>
+      </div>
+
   <% end %>
 
   <%= render "devise/shared/links" %>
+
+
 </div>
