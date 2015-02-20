@@ -13,6 +13,8 @@ home-cover.jpg: home-cover-d4a8c6012afe8045f3bced20da17b142.jpg
 home-cover/index.jpg: home-cover-d4a8c6012afe8045f3bced20da17b142.jpg
 iphone.png: iphone-c03c4f7b5630dc4eddbca8d8990c9b4b.png
 iphone/index.png: iphone-c03c4f7b5630dc4eddbca8d8990c9b4b.png
+kid.jpg: kid-7ba5681c96ee9ae70706d17b51e12e6d.jpg
+kid/index.jpg: kid-7ba5681c96ee9ae70706d17b51e12e6d.jpg
 laptop.jpg: laptop-99541276fcde2c0068f96ec024156450.jpg
 laptop/index.jpg: laptop-99541276fcde2c0068f96ec024156450.jpg
 medal.png: medal-f864dc7725c8cba275d8d0a1910992a6.png
@@ -39,5 +41,5 @@ wood.jpg: wood-19df14631adb9586f2dab26ac754bf22.jpg
 wood/index.jpg: wood-19df14631adb9586f2dab26ac754bf22.jpg
 application.js: application-c80f70c8e10a722edb508ba273bd55b8.js
 application/index.js: application-c80f70c8e10a722edb508ba273bd55b8.js
-application.css: application-ba0b865de925791484afb611bd90b25d.css
-application/index.css: application-ba0b865de925791484afb611bd90b25d.css
+application.css: application-028fec4a85eee46a0fe63af7042ce307.css
+application/index.css: application-028fec4a85eee46a0fe63af7042ce307.css

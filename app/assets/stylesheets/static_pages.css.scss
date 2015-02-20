@@ -189,25 +189,10 @@ a.sign-in:hover{
 
 /*----About----*/
 
-.about-cover {
-	background: #9B74B3;
-	text-align: center;
-	padding: 10em 10em 10em 10em;
-	margin: 0 auto;
-	background-size: cover; 
-}
-
-.about-cover h2{
-	color: white; 
-}
-.about-cover p{
-	color: white;  
-}
-
 .about-2 {
 	background: white;
 	text-align: center;
-	padding: 3em 16em 0em 16em;
+	padding: 2em 16em 0em 16em;
 	margin: 0 auto;
 	background-size: cover; 
 }
@@ -222,10 +207,51 @@ a.sign-in:hover{
 .about-3 {
 	background: white;
 	text-align: left;
-	padding: 1em 2em 1em 2em;
-	margin: 0 auto;
+	padding: 2em 16em 1em 16em;
+	margin-bottom: 3em;
 }
 
+.nosotros {
+	background: white;
+	padding: 2em 0;
+	height: 30em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nosotros h2{
+	color: gray;
+}
+
+.nosotros h3{
+	color:gray;
+}
+
+.nosotros-box {
+	width: 16vw;
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.nosotros-centered {
+	margin: 5vh auto;
+	padding-bottom: 2vh;
+	float: center;
+	display: inline-block;
+	padding: 2em 0;
+}	
+
+.about-photo {
+	background: url(/assets/kid.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding: 10em 0;
+}
 
 a.payment-button {
 	background: #68C6B9;
@@ -243,22 +269,6 @@ background: #8dd4ca
 }
 
 /*----Help----*/
-
-.help-cover{
-	background: #9B74B3;
-	text-align: center;
-	padding: 10em 10em 10em 10em;
-	margin: 0 auto;
-	background-size: cover; 
-}
-
-.help-cover h2{
-	color: white;
-}
-
-.help-cover p{
-	color: white;
-}
 
 .help-2 {
 	background: white;
